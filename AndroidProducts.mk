@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bathena.mk
+    $(LOCAL_DIR)/lmodroid_bathena.mk
