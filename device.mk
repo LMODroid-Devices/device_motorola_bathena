@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2022-2024 The LineageOS Project
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -41,9 +41,11 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lmodroid
+PRODUCT_PACKAGES += \
+    FrameworksResDevice \
+    LineagePlatformDevice \
+    SystemUIResDevice \
+    WifiResDevice
 
 # Permissions
 PRODUCT_COPY_FILES += \
